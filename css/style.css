@@ -67,6 +67,67 @@ nav ul li a:hover {
   font-family: "raleway", sans-serif;
   font-weight: 300;
   font-size: 10rem;
+  font-style: italic;
   color: #fff;
   margin: 13rem auto;
+}
+
+/* Mission */
+.mission {
+  color: #343a40;
+  background-color: #f8f9fa;
+  text-align: center;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.mission-image {
+  width: 70rem;
+  height: 30rem;
+  margin-left: 1.25rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+  margin: 0 2rem;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.75rem 0.75rem darkgray;
+}
+
+.mission-text {
+  width: 100%;
+  height: 30rem;
+  margin: 0 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.mission-text h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mission-text p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.mission-text span {
+  font-style: italic;
+}
+
+.mission-text p,
+.mission-text h2 {
+  text-shadow: 0.2rem 0.2rem 1rem #606c77;
 }
