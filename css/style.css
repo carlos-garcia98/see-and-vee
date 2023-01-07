@@ -101,7 +101,7 @@ nav ul li a:hover {
   margin: 0 2rem;
   overflow: hidden;
   border-radius: 0.75rem;
-  box-shadow: 0 0.75rem 0.75rem darkgray;
+  box-shadow: 0 0 3rem #6c757d;
 }
 
 .mission-text {
@@ -128,7 +128,60 @@ nav ul li a:hover {
   font-style: italic;
 }
 
-.mission-text p,
-.mission-text h2 {
-  text-shadow: 0.2rem 0.2rem 1rem #606c77;
+/* Products */
+.products {
+  color: #343a40;
+  background-color: #f8f9fa;
+  width: 100%;
+  height: 40rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.products-container {
+  width: 100%;
+  height: 30rem;
+  margin: 1.75rem;
+  display: flex;
+  gap: 7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  background-color: #fff;
+  box-shadow: 0 0 1rem #6c757d;
+  border-radius: 1rem;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.product img {
+  width: 100%;
+  height: 20rem;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 1rem #6c757d;
+}
+
+.product-title {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product h3 {
+  font-size: 1.75rem;
 }
