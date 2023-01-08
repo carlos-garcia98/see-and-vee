@@ -18,6 +18,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   box-shadow: 0 0.25rem 1rem darkgray;
   width: 100%;
   height: 40rem;
