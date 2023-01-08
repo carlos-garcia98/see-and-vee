@@ -185,3 +185,55 @@ nav ul li a:hover {
 .product h3 {
   font-size: 1.75rem;
 }
+
+/* Employees */
+.employees {
+  background-color: #f8f9fa;
+  color: #343a40;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.employees h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.employees-container {
+  width: 100%;
+  height: auto;
+  margin: 1.75rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.employee {
+  width: 15rem;
+  height: 26rem;
+  margin: 1rem 4.28rem;
+}
+
+.employee-image {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #6c757d;
+}
+
+.employee-name {
+  border: 1px solid #6c757d;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #6c757d;
+  font-size: 1rem;
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
