@@ -152,14 +152,13 @@ nav ul li a:hover {
   height: 30rem;
   margin: 1.75rem;
   display: flex;
+  flex-flow: row wrap;
   gap: 7rem;
   justify-content: center;
   align-items: center;
 }
 
 .product {
-  background-color: #fff;
-  box-shadow: 0 0 1rem #6c757d;
   border-radius: 1rem;
   height: 100%;
   text-align: center;
@@ -169,14 +168,16 @@ nav ul li a:hover {
 .product img {
   width: 100%;
   height: 20rem;
-  padding: 1rem;
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 0 0.2rem 1rem #6c757d;
 }
 
 .product-title {
-  height: 9rem;
+  border: 1px solid #6c757d;
+  box-shadow: 0 0 1rem #6c757d;
+  border-radius: 1rem;
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
