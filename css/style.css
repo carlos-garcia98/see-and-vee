@@ -189,7 +189,6 @@ nav ul li a:hover {
 
 .product {
   border-radius: 1rem;
-  /* height: auto; */
   text-align: center;
   cursor: pointer;
 }
@@ -235,6 +234,17 @@ nav ul li a:hover {
 
   .product-title h3 {
     font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .products-container {
+    gap: 2rem;
+    height: auto;
+  }
+
+  .product-title h3 {
+    font-size: 0.75rem;
   }
 }
 
@@ -320,4 +330,10 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    font-size: 0.75rem;
+  }
 }
