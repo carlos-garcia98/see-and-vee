@@ -302,6 +302,10 @@ nav ul li a:hover {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  
+}
+
 /* Employees */
 .employees {
   background-color: #f8f9fa;
@@ -366,6 +370,12 @@ nav ul li a:hover {
 
   .employee-name {
     font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .employees h2 {
+    text-align: center;
   }
 }
 
