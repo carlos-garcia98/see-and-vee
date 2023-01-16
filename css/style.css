@@ -100,6 +100,16 @@ nav ul li a:hover {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .banner {
+    height: 30rem;
+  }
+  
+  .banner h1 {
+    font-size: 4.50rem;
+  }
+}
+
 /* Mission */
 .mission {
   color: #343a40;
